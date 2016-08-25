@@ -76,8 +76,3 @@ class util:
 		return np.array(lst_fea), to_categorical(np.array(lst_label)), lst_fea_raw
 
 
-
-
-
-
-
