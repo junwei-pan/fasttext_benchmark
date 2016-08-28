@@ -1,18 +1,14 @@
-'''This example demonstrates the use of fasttext for text classification
+'''This example demonstrates the use of fasttext for text classification, we test it over several datasets using different parameters to get a deeper insight into it.
 
 Based on Joulin et al's paper:
 
 Bags of Tricks for Efficient Text Classification
 https://arxiv.org/abs/1607.01759
 
-Can achieve accuracy around 88% after 5 epochs in 70s.
-
 '''
 
 from __future__ import print_function
 import numpy as np
-np.random.seed(1337)  # for reproducibility
-
 from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Flatten
@@ -22,6 +18,7 @@ from keras.datasets import imdb
 from util import util
 from keras.utils.np_utils import to_categorical
 
+np.random.seed(1337)  # for reproducibility
 
 # set parameters:
 max_features = 20000
