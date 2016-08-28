@@ -1,6 +1,6 @@
 # fasttext_benchmark
 
-Test the fasttext model on text classification over several datasets, the code is based on the [keras fasttext example](https://github.com/fchollet/keras/blob/master/examples/imdb_fasttext.py).
+Test the fasttext model on text classification over several datasets, the code is based on the fasttext example on keras: [keras fasttext example](https://github.com/fchollet/keras/blob/master/examples/imdb_fasttext.py).
 
 ## Experiment results
 
