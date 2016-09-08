@@ -15,3 +15,4 @@ ag_news
 ## Reference
 
  1. [Bags of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759)
+ 2. [keras fasttext example](https://github.com/fchollet/keras/blob/master/examples/imdb_fasttext.py)
