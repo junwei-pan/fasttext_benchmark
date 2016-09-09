@@ -4,13 +4,21 @@ Test the fasttext model on text classification over several datasets provided in
 
 ## Experiment results
 
-ag_news
+- ag_news
 
 | embedding_dim | 1 epoch | 2 epochs | 3 epochs | 4 epochs | 5 epochs |
 | --- | --- | --- | --- | --- | --- |
 | 20 | 84.89% | 86.70% | 87.86% | 88.54% | 89.50% |
 | 50 | 86.29% | 88.01% | 89.34% | 89.92% | 90.32% |
 
+
+- dbpedia
+
+
+| embedding_dim | 1 epoch | 2 epochs | 3 epochs | 4 epochs | 5 epochs |
+| --- | --- | --- | --- | --- | --- |
+| 20 | 94.06% | 96.36% | 97.05% | 97.40% | 97.56% |
+| 50 | - | - | - | - | - |
 
 ## Reference
 
