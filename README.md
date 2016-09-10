@@ -18,7 +18,7 @@ Test the fasttext model on text classification over several datasets provided in
 | embedding_dim | 1 epoch | 2 epochs | 3 epochs | 4 epochs | 5 epochs |
 | --- | --- | --- | --- | --- | --- |
 | 20 | 94.06% | 96.36% | 97.05% | 97.40% | 97.56% |
-| 50 | - | - | - | - | - |
+| 50 | 96.00% | 97.23% | 97.61% | 97.76% | 97.86% |
 
 ## Reference
 
